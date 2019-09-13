@@ -1,12 +1,12 @@
-import { injectable } from "inversify";
+import { injectable } from 'inversify';
 
-export interface IProvider<T> {
+export interface Provider<T> {
   provide(): T;
 }
 
 @injectable()
-export class NameProvider implements IProvider<string> {
+export class NameProvider implements Provider<string> {
   provide() {
-    return "World";
+    return 'World';
   }
 }

@@ -1,7 +1,7 @@
-import "reflect-metadata";
-import * as React from "react";
-import { render } from "react-dom";
-import { Hello } from "./Hello";
+import 'reflect-metadata';
+import * as React from 'react';
+import { render } from 'react-dom';
+import { Hello } from './Hello';
 
 const App = () => (
   <div>
@@ -9,4 +9,4 @@ const App = () => (
   </div>
 );
 
-render(<App />, document.getElementById("root"));
+render(<App />, document.getElementById('root'));
