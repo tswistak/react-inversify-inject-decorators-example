@@ -8,7 +8,7 @@
     "inversify-inject-decorators": "3.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts-ts": "^2.13.0",
+    "react-scripts-ts": "^4.0.8",
     "reflect-metadata": "0.1.12"
   },
   "scripts": {
